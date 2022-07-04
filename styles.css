@@ -1,0 +1,39 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    background: url('https://hips.hearstapps.com/hmg-prod.s3.amazonaws.com/images/cute-cat-photos-1593441022.jpg');
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    margin: 0;
+    background-size: cover;
+    background-position: center center;
+    min-height: 100vh;
+}
+
+h1 {
+    flex-wrap: wrap;
+    justify-content: center;
+    font-size: 4rem;
+    margin-top: -10rem;
+}
+
+.countdown-container {
+    display: flex;
+    font-size: 2rem;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.big-text {
+    font-size: 6rem;
+    margin: 0 2rem;
+    line-height: 1;
+}
+
+.countdown-el {
+    text-align: center;
+}
